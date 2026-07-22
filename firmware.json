@@ -1,0 +1,15 @@
+{
+  "latest": { "major": 4, "minor": 4 },
+  "variants": {
+    "mochi": {
+      "url": "https://raw.githubusercontent.com/DomAlc/mochi-studio/main/firmware_mc_v4.hex",
+      "label": "Mochi Studio"
+    },
+    "snap": {
+      "url": "https://raw.githubusercontent.com/DomAlc/mochi-studio/main/firmware_mc_opt.hex",
+      "label": "Mochi + Snap!"
+    }
+  },
+  "notes": "v4.4: antirrebote de entradas y auto-reanudación del modo autónomo",
+  "min_recommended": { "major": 4, "minor": 0 }
+}
