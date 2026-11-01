@@ -1,8 +1,11 @@
 {
-  "latest": { "major": 4, "minor": 5 },
+  "latest": {
+    "major": 4,
+    "minor": 5
+  },
   "variants": {
     "mochi": {
-      "url": "https://raw.githubusercontent.com/DomAlc/mochi-studio/main/firmware_mc_v4_5.hex",
+      "url": "https://raw.githubusercontent.com/DomAlc/mochi-studio/main/firmware_mc_v4.hex",
       "label": "Mochi Studio"
     },
     "snap": {
@@ -10,6 +13,13 @@
       "label": "Mochi + Snap!"
     }
   },
-  "notes": "v4.4: antirrebote de entradas y auto-reanudación del modo autónomo",
-  "min_recommended": { "major": 4, "minor": 0 }
+  "notes": {
+    "es": "v4.5: los programas de bloques ya pueden funcionar sin ordenador («Volcar a la placa» en modo bloques).",
+    "ca": "v4.5: els programes de blocs ja poden funcionar sense ordinador («Bolca a la placa» en mode blocs).",
+    "en": "v4.5: block programs can now run without a computer («Upload to board» in blocks mode)."
+  },
+  "min_recommended": {
+    "major": 4,
+    "minor": 0
+  }
 }
